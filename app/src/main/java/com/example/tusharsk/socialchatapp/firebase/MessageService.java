@@ -22,14 +22,16 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 
+import com.example.tusharsk.socialchatapp.DBHelper;
 import com.example.tusharsk.socialchatapp.Model.ChatMessages;
+import com.example.tusharsk.socialchatapp.Model.RecentChatsTable;
 import com.example.tusharsk.socialchatapp.R;
 import com.example.tusharsk.socialchatapp.activities.ChatScreen;
 // TODO by anubhav import com.example.tusharsk.socialchatapp.activities.MainActivity;
-// TODO by anubhav import com.example.tusharsk.socialchatapp.Model.RecentChatsTable;
 // TODO by anubhav import com.example.lenovo.gupshup.DBHelper;
 // TODO by anubhav import com.example.lenovo.gupshup.db.ChatListRecord;
 
+import com.example.tusharsk.socialchatapp.db.ChatListRecord;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
@@ -55,8 +57,8 @@ public class MessageService extends FirebaseMessagingService {
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
         if (remoteMessage.getData().size() > 0) {
-            MediaPlayer player = MediaPlayer.create(this, R.raw.whistle);
-            player.start();
+           // MediaPlayer player = MediaPlayer.create(this, R.raw.whistle);
+           // player.start();
             Map<String, String> data = remoteMessage.getData();
 
             Iterator<String> keyset = data.keySet().iterator();

@@ -38,6 +38,7 @@ import com.example.tusharsk.socialchatapp.Model.ChatMessages;
 import com.example.tusharsk.socialchatapp.firebase.FcmId;
 import com.example.tusharsk.socialchatapp.firebase.URLEndPoints;
 import com.example.tusharsk.socialchatapp.firebase.MessageService;
+import com.example.tusharsk.socialchatapp.R;
 
 /// My header files
 /*;
@@ -150,7 +151,7 @@ public class ChatScreen extends AppCompatActivity {
     }
 
     //  menu bar
-    /*
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.chat_screen_menu,menu);
@@ -171,7 +172,7 @@ public class ChatScreen extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-*/
+
     // messageREceived func
     public void messageReceived(ChatMessages msg) {
         msgs.add(msg);
