@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "204108264804",
+    "firebase_url": "https://socialchatapp-da83f.firebaseio.com",
+    "project_id": "socialchatapp-da83f",
+    "storage_bucket": "socialchatapp-da83f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204108264804:android:93c3ffb8c810aac2",
+        "android_client_info": {
+          "package_name": "com.example.tusharsk.socialchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204108264804-8n6gv3f5fq5o7jqkdvq41mrihcbrrn5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tusharsk.socialchatapp",
+            "certificate_hash": "ea98464509de9962a6118a155de2126c2c37ed9d"
+          }
+        },
+        {
+          "client_id": "204108264804-4aq654bmhendeeb9rrjhq0lpn5114cqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_07yU83v2XpPvf1EqXrtbtLd1B-JhXmc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204108264804-4aq654bmhendeeb9rrjhq0lpn5114cqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
